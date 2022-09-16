@@ -14,4 +14,28 @@ public class MinhasFuncoes {
 
         return v;
     }
+
+    public static String mostrar(int[] v) {
+        String saida = "";
+        for (int i = 0; i < v.length; i++) {
+            saida += v[i] + " | ";
+        }
+        return saida;
+    }
+
+    /**
+     * System.out.println(MinhasFuncoes.mostrarTop(vet));
+     * @param v
+     * @return
+     */
+    public static String mostrarTop(int[] v) {
+        StringBuilder saida = new StringBuilder();
+
+        for (int i = 0; i < v.length; i++) {
+            saida.append(v[i]);
+            saida.append(" | ");
+        }
+
+        return saida.toString();
+    }
 }
