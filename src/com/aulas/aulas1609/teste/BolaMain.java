@@ -8,8 +8,6 @@ public class BolaMain {
         bola.setTipo("Basquete");
         bola.setPreco(23) ;
 
-        System.out.println("Material: "+bola.getMaterial());
-        System.out.println("Tipo: "+bola.getTipo());
-        System.out.println("Preço: R$ "+bola.getPreco());
+        System.out.println(bola);
     }
 }

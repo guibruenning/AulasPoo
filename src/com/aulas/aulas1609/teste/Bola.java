@@ -33,4 +33,13 @@ public class Bola {
         return preco;
     }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Bola{");
+        sb.append("tipo='").append(tipo).append('\'');
+        sb.append(", material='").append(material).append('\'');
+        sb.append(", preco=").append(preco);
+        sb.append('}');
+        return sb.toString();
+    }
 }
